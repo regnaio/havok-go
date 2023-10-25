@@ -239,7 +239,7 @@ func wasmerHavok() error {
 		return err
 	}
 
-	fmt.Println(result) // 42!
+	fmt.Println(result)
 
 	return nil
 }
