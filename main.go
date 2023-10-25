@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/bytecodealliance/wasmtime-go/v14"
+	_ "github.com/bytecodealliance/wasmtime-go/v14" // https://github.com/wasmerio/wasmer-go/issues/402
 
 	"github.com/wasmerio/wasmer-go/wasmer"
 )
